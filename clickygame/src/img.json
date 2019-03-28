@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Moon",
+      "image":
+        "./sailors/moon.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Venus",
+      "image":
+        "./sailors/venus.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mars",
+      "image":
+        "./sailors/mars.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Jupiter",
+        "image":
+          "./sailors/jupiter.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Mercury",
+        "image":
+          "./sailors/mercury.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Chibi",
+        "image":
+          "./sailors/chibiusa.jpg"
+      }
+  ]
+  
