@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ImageCard from "./components/ImageCard";
 import Header from "./components/Header";
 import imgs from "./img.json";
+import "./components/style.css";
 var clicked = [];
 var score = 0;
 class App extends Component {
@@ -52,21 +53,21 @@ class App extends Component {
   // Map over this.state.imgss and render a imgsCard component for each imgs object
   render() {
     return (
-       <div>
+       <div className="body">
          <Header>{score}</Header>
          <div className="container">
-         <div className="row">
-        {this.state.imgs.map(img => (
-          <ImageCard
-            removeimg={this.removeimg}
-            shuffle = {this.shuffle}
-            id={img.id}
-            key={img.id}
-            name={img.name}
-            image={img.image}
-          />
-        ))}
-        </div>
+          <div className="row">
+            {this.state.imgs.map(img => (
+              <ImageCard
+                removeimg={this.removeimg}
+                shuffle = {this.shuffle}
+                id={img.id}
+                key={img.id}
+                name={img.name}
+                image={img.image}
+              />
+            ))}
+          </div>
         </div>
       </div>
     );

@@ -1,9 +1,10 @@
 import React from "react";
+import "./style.css";
 
 function Header(props) {
     return (
         <div>
-            <div className="jumbotron">
+            <div className="jumbotron" >
                 <h1 className="display-4">Clicky Game</h1>
                 <p className="lead">Get points by clicking new Image. Loose when repeated image clicked.</p>
                 <p className="lead">
